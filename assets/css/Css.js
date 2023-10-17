@@ -7,9 +7,19 @@ const css = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center',
     },
-    textPage:{
+    container2: {
+      flex: 1,
+      flexDirection: 'row',
+      backgroundColor: '#fff',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    textPage: {
         backgroundColor: 'orange',
         padding: 20
+    },
+    button__home: {
+      marginRight: 10
     }
   });
   export {css};
